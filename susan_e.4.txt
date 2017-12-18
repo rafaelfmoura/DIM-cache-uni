@@ -1,0 +1,12 @@
+-UL2 [512,8,512,0,4]
+-UL3 [8192,8,512,0,4]
+4
+-BB 2 -C 0 -UL1 [64,8,512,0] -SFU 2 -SFI regular_shape_6.txt -R 16
+-BB 2 -C 1 -UL1 [64,8,512,0] -SFU 2 -SFI regular_shape_6.txt -R 16
+-BB 2 -C 2 -UL1 [64,8,512,0] -SFU 2 -SFI regular_shape_6.txt -R 16
+-BB 2 -C 3 -UL1 [64,8,512,0] -SFU 2 -SFI regular_shape_6.txt -R 16
+0
+/home/simics/Simics/Results/susan_e.4/susan_e_0.txt.gz
+/home/simics/Simics/Results/susan_e.4/susan_e_1.txt.gz
+/home/simics/Simics/Results/susan_e.4/susan_e_2.txt.gz
+/home/simics/Simics/Results/susan_e.4/susan_e_3.txt.gz
