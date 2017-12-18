@@ -1,0 +1,40 @@
+digraph "configuration.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="configuration.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cache_block.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cache__block_8h.html",tooltip="Prototypes for the class which implements a basic cache memory block. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cache.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cache_8h.html",tooltip="Prototypes for the class which implements a basic cache memory. "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="memory_interface.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$memory__interface_8h.html",tooltip="Prototypes for the class which implements a basic memory interface. "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="results.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$results_8h.html",tooltip="Prototype of the class results and its methods. "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="array.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$array_8h.html",tooltip="Prototypes for the array class. "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="array.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$array_8cpp.html",tooltip="Implementation for the array class. "];
+  Node6 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="DIM.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_d_i_m_8h_source.html"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="DIM_core.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_d_i_m__core_8h_source.html"];
+  Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="results.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$results_8cpp.html",tooltip="Implementation of the class results and its methods. "];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="memory_interface.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$memory__interface_8cpp.html",tooltip="Implementation of the clas which represents a basic memory interface. "];
+  Node3 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="cache.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cache_8cpp.html",tooltip="Implementation for the cache class. "];
+  Node3 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="cache_block.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cache__block_8cpp.html",tooltip="Implementation of the prototypes for the class which implements a basic cache memory block..."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="configuration.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$configuration_8cpp.html",tooltip="Implementation for the configuration class. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
